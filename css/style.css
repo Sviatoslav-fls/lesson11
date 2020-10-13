@@ -129,7 +129,6 @@ textarea {
 .title {
 	font-weight: 800;
 	font-size: 36px;
-	line-height: 46px;
 	text-align: center;
 	color: #333333;
 }
@@ -238,7 +237,6 @@ img.company-top-header__logo {
 }
 
 .contacts-top-header__phone {
-	/* display: inline-block; */
 	display: block;
 	font-weight: bold;
 	font-size: 20px;
@@ -251,7 +249,6 @@ img.company-top-header__logo {
 	text-decoration: underline;
 }
 .contacts-top-header__email {
-	/* display: block; */
 	display: inline-block;
 	font-weight: 500;
 	font-size: 17px;
@@ -337,8 +334,7 @@ img.company-top-header__logo {
 /* ------------------------------------------------------------------------------- */
 
 .document-options {
-	min-height: 830px;
-	padding: 60px 0px 65px 0px;
+	padding: 60px 0px 45px 0px;
 }
 .document-options__container {
 }
@@ -436,7 +432,7 @@ img.company-top-header__logo {
 }
 /* ------------------------------------------------------------------------------- */
 .educational-programs {
-	padding: 60px 0px 120px 0px;
+	padding: 60px 0px 60px 0px;
 }
 .educational-programs__container {
 }
@@ -494,7 +490,7 @@ img.company-top-header__logo {
 }
 /* ------------------------------------------------------------------------------- */
 .news {
-	padding: 90px 0px 140px 0px;
+	padding: 60px 0px 60px 0px;
 }
 .news_container {
 }
