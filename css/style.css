@@ -245,7 +245,8 @@ img.company-top-header__logo {
 	background: url("../img/header/icons/call-answer.svg") left / 16px no-repeat;
 	padding: 0px 0px 0px 23px;
 }
-.contacts-top-header__phone:hover {
+.contacts-top-header__phone:hover,
+.contacts-top-header__email:hover {
 	text-decoration: underline;
 }
 .contacts-top-header__email {
@@ -257,9 +258,6 @@ img.company-top-header__logo {
 	color: #333333;
 	background: url("../img/header/icons/mail.svg") 28px 5px/16px no-repeat;
 	padding: 0px 0px 0px 53px;
-}
-.contacts-top-header__email:hover {
-	text-decoration: underline;
 }
 .top-header__btn {
 	display: inline-block;
@@ -352,9 +350,7 @@ img.company-top-header__logo {
 	padding: 25px 0px 25px 0px;
 	margin: 0px 25px 20px 0px;
 }
-.document-options__column:nth-child(4),
-.document-options__column:nth-child(8),
-.document-options__column:nth-child(12) {
+.document-options__column:nth-child(4n + 4) {
 	margin: 0px 0px 0px 0px;
 }
 .document-options__item {
@@ -364,7 +360,7 @@ img.company-top-header__logo {
 .item-document-options__icon {
 	display: flex;
 	justify-content: center;
-	/* max-width: 73px; */
+	max-width: 73px;
 	max-height: 66px;
 	margin: 0px auto 20px auto;
 }
@@ -509,8 +505,7 @@ img.company-top-header__logo {
 	margin: 0px 29px 30px 0px;
 	padding: 25px 0px 25px 0px;
 }
-.news__column:nth-child(4),
-.news__column:nth-child(8) {
+.news__column:nth-child(4n + 4) {
 	margin: 0px 0px 0px 0px;
 }
 .news__item {
